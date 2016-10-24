@@ -38,4 +38,4 @@ Please open Github issues for bugs, questions, or feature requests.
 
 ## License
 
-AnimatedButton is released under an MIT License. See LICENSE file for details.
+This project is released under an MIT License. See LICENSE file for details.
