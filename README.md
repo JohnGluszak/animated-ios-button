@@ -22,7 +22,8 @@ ABAnimatedButton *button = [ABAnimatedButton buttonWithAnimationType:ABAnimation
 
 ### Fading Button
 
-Use the following code to create a button that animates a color fade on touches. Note the fade color is set by the ```tintColor``` of the button.
+Use the following code to create a button that animates a color fade on touches.  
+Note the fade color is set by the ```tintColor``` of the button.
 ```objective-c
 ABAnimatedButton *button = [ABAnimatedButton buttonWithAnimationType:ABAnimationTypeFade];
 button.tintColor = [UIColor ...]; // Set the fade animation color
