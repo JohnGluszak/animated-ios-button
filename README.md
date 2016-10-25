@@ -15,7 +15,6 @@ pod 'AnimatedButton'
 
 ![Bounce](https://github.com/JohnGluszak/animated-ios-button/blob/master/Images/AnimatedButtonBounce.gif)
 
-Use the following code to create a button that bounces on touches:
 ```objective-c
 ABAnimatedButton *button = [ABAnimatedButton buttonWithAnimationType:ABAnimationTypeBounce];
 // Now customize the button appearance like a normal UIButton
@@ -26,13 +25,22 @@ ABAnimatedButton *button = [ABAnimatedButton buttonWithAnimationType:ABAnimation
 
 ![Fade](https://github.com/JohnGluszak/animated-ios-button/blob/master/Images/AnimatedButtonFade.gif)
 
-Use the following code to create a button that animates a color fade on touches.  
-Note the fade color is set by the ```tintColor``` of the button.
 ```objective-c
 ABAnimatedButton *button = [ABAnimatedButton buttonWithAnimationType:ABAnimationTypeFade];
 button.tintColor = [UIColor ...]; // Set the fade animation color
 // Now customize the button appearance like a normal UIButton
 ```
+* Note the fade color is set by the ```tintColor``` of the button.
+
+
+### Customizing
+
+You can fully customize the behavior of the button animations by altering the ```ABAnimatedButton``` properties. These allow you to change:
+* Animation duration
+* Fade color
+* Bounce damping & velocity
+* Bounce scale
+
 
 
 ## Contributing
